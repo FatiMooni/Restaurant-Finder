@@ -66,7 +66,7 @@ class LocationScreen extends StatelessWidget{
         return ListTile(
           title: Text(location.title),
           onTap: () {
-            // 3
+            // 3 select location
             final locationBloc = BlocProvider.of<LocationBloc>(context);
             locationBloc.selectLocation(location);
 
