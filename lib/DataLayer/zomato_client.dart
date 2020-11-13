@@ -38,7 +38,7 @@ import 'location.dart';
 import 'restaurant.dart';
 
 class ZomatoClient {
-  final _apiKey = 'PASTE YOUR API KEY HERE';
+  final _apiKey = '937ee7ecad84804aa69ece18808dec94';
   final _host = 'developers.zomato.com';
   final _contextRoot = 'api/v2.1';
 
